@@ -13,32 +13,41 @@
 
   body {
     font-family: 'Cutive', serif;
-    color: #495057
+    color: #495057;
   }
 
-  header, main, footer {
+  header, footer, main {
     border: 3px solid #adb5bd;
-    text-align: center;
+	text-align: center;
     margin: 10px 50px;
-    border-radius: 25px;
-  }
-
-  .group {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .item {
-    flex: 1;
-    margin: 10px;
+    border-radius: 10px;
   }
   
-  form button {
-    padding: 10px 16px;
+    main {
+	//font-family: 'Cutive', serif;
+    //color: #495057;
+	//border: 3px solid #adb5bd;
+    //margin: 10px 50px;
+    //border-radius: 15px;
+  }
+  
+  .quiz-info {
+	 text-align: right;  
+	 margin: 0 5%;
+  }  
+   
+	form button, .container .btn {
+    padding: 10px 15px;
     border-radius: 10px;
     border: 0;
     font-size: 14px;
     background: #495057;
     color: #fff;
-    margin: 10px 10px;
+    margin: 15px 10px;
 }
+
+	.question-container {
+	margin: 0 10%;
+	text-align: left;
+	}
+	
