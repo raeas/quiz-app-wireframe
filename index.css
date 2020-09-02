@@ -23,14 +23,6 @@
     border-radius: 10px;
   }
   
-    main {
-	//font-family: 'Cutive', serif;
-    //color: #495057;
-	//border: 3px solid #adb5bd;
-    //margin: 10px 50px;
-    //border-radius: 15px;
-  }
-  
   .quiz-info {
 	 text-align: right;  
 	 margin: 0 5%;
@@ -51,3 +43,12 @@
 	text-align: left;
 	}
 	
+	
+	/* styles for (Desktop) */
+  @media all and (min-width: 600px){
+    
+  header, footer, main {
+    margin: 10px 250px;
+  }
+  
+  }
